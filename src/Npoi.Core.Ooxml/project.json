@@ -1,4 +1,6 @@
 {
+  "title": "Npoi.Core",
+  "description": "NPoi.Core",
   "version": "1.1.0-*",
   "buildOptions": { "nowarn": [ "CS0618", "CS0612" ] },
   "dependencies": {

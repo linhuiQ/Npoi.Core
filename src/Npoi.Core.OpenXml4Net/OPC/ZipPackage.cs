@@ -533,7 +533,7 @@ namespace Npoi.Core.OpenXml4Net.OPC
                 if (isStream)
                     zos.Finish();   //instead of use zos.Close, it will close the stream
                 else
-                    zos.Dispose();
+                    zos.CloseEntry();
             }
             catch (Exception e)
             {
