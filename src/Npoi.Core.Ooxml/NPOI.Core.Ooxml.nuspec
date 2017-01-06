@@ -15,10 +15,25 @@
     <tags>Tag1 Tag2</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.6">
-        <dependency id="NETStandard.Library" version="1.6.0" />
+        <dependency id="NETStandard.Library" version="[1.6.0, )" />
+        <dependency id="System.Xml.XPath" version="[4.0.1, )" />
+        <dependency id="System.Security.Cryptography.Algorithms" version="[4.2.0, )" />
+        <dependency id="System.Threading.Thread" version="[4.0.0, )" />
+        <dependency id="ZKWeb.System.Drawing" version="[2.0.1, )" />
+        <dependency id="SharpZipLib.NETStandard" version="[0.86.0.1, )" />
+        <dependency id="System.ComponentModel.Primitives" version="[4.1.0, )" />
+        <dependency id="System.Xml.XmlSerializer" version="[4.0.11, )" />
       </group>
       <group targetFramework=".NETStandard1.6">
-        <dependency id="NETStandard.Library" version="1.6.0" />
+        <dependency id="System.Xml.XPath.XDocument" version="[4.0.1, )" />
+        <dependency id="NETStandard.Library" version="[1.6.0, )" />
+        <dependency id="System.Xml.XPath" version="[4.0.1, )" />
+        <dependency id="System.Security.Cryptography.Algorithms" version="[4.2.0, )" />
+        <dependency id="System.Threading.Thread" version="[4.0.0, )" />
+        <dependency id="ZKWeb.System.Drawing" version="[2.0.1, )" />
+        <dependency id="SharpZipLib.NETStandard" version="[0.86.0.1, )" />
+        <dependency id="System.ComponentModel.Primitives" version="[4.1.0, )" />
+        <dependency id="System.Xml.XmlSerializer" version="[4.0.11, )" />
       </group>
     </dependencies>
 
